@@ -12,8 +12,8 @@ if ! git diff-index --quiet HEAD --; then
     git commit -m "Auto Sync - $(date +'%Y-%m-%d %H:%M:%S')"
 fi
 
-# Envia as mudanças para o GitHub no ramo 'main'
-# Ele usará as credenciais salvas pelo GCM que configuramos anteriormente.
+#via as mudanças para o GitHub no ramo 'main'
+# Ele usará as credenciais salvas pelo GCM.
 git push origin main
 
 # Fim do script
