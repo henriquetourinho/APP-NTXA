@@ -38,6 +38,6 @@ class MainActivity : AppCompatActivity() {
         })
 
         // 4. Carrega a URL
-        webView.loadUrl("https://ntxa.xyz/")
+        webView.loadUrl("https://bioclock.ntxa.xyz/")
     }
 }
